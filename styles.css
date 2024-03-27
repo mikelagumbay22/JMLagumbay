@@ -16,8 +16,6 @@ body {
   margin-top: 30px;
 }
 
-
-
 /** Navigation **/
 
 .outer {
@@ -52,13 +50,11 @@ body {
 }
 
 .navMenuitem {
-  color: white;
   /** border:  1px solid #888; **/
   padding: 5px;
 }
 
 .navSeparators {
-  color: white;
 }
 
 /** Section **/
@@ -66,7 +62,6 @@ body {
 .containerJM {
   height: 1000px;
   width: 100%;
-
 }
 
 .containerSection {
@@ -87,7 +82,7 @@ body {
 
 .containerSection h1 {
   margin-top: 20px;
-  color: white;
+
   font-size: 3rem;
   font-family: "Luckiest Guy", cursive;
   font-weight: 400;
@@ -96,7 +91,7 @@ body {
 
 .containerSection h2 {
   margin-top: 20px;
-  color: white;
+
   font-size: 2rem;
   font-family: "Luckiest Guy", cursive;
   font-weight: 200;
@@ -137,18 +132,16 @@ footer {
   text-decoration: none;
 }
 
-.social{
+.social {
   height: 90%;
   width: 90%;
 }
 
 a {
-  color: white;
   width: 10px;
 }
 
 .footerMenuitem {
-  color: white;
   padding: 5px;
 }
 
@@ -167,7 +160,6 @@ a {
 
 .aboutme {
   position: relative;
-  color: white;
 }
 .about-name {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -242,7 +234,7 @@ a {
   justify-content: center;
 }
 
-.icon-resume{
+.icon-resume {
   padding: 10px;
   text-decoration: none;
   border: 4px solid #888;
@@ -251,9 +243,7 @@ a {
   height: 20%;
 }
 
-
-
-.about-resume-details{
+.about-resume-details {
   padding: 10px;
 }
 
@@ -262,7 +252,6 @@ a {
   width: auto;
   padding: 5px 0;
 }
-
 
 .experience-box {
   display: flex;
@@ -274,7 +263,6 @@ a {
   text-decoration: overline;
   padding-bottom: 20px;
 }
-
 
 .experience-grid {
   display: grid;
@@ -335,13 +323,9 @@ a {
   }
 }
 
-
-
-
-@media (width < 900px) and (height < 500){ 
+@media (width < 900px) and (height < 500) {
   .containerJM {
     height: 1000px;
     width: 100%;
-  
   }
-}   
+}
